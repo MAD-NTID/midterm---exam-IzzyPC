@@ -28,6 +28,7 @@ namespace Coinbase.Controllers
             return Ok(await _repository.All());
         }
 
+
         [HttpPost]
         public async Task<IActionResult> Create(Cryptocurrency cryptocurrency)
         {
